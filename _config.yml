@@ -1,0 +1,13 @@
+domain: http://summit2016.hotosm.org
+baseurl: ''
+permalink: pretty
+exclude: [src, CNAME]
+markdown: rdiscount
+
+collections:
+  speaker-list:
+    output: true
+  schedule-list:
+    output: true
+  events:
+    ouput: true

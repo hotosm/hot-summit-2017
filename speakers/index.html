@@ -1,0 +1,49 @@
+---
+layout: default
+title: Speakers
+published: true
+
+---
+
+<div class='fill-blue'>
+  <div class='liner clearfix center fill-darken3 dark col12'>
+    <h2 class='pad2'>HOT Summit 2016  Speakers</h2>
+  </div>
+</div>
+
+<!-- 
+[SUBMIT BUTTON - Google Form tbd]
+ -->
+
+<div class='limiter pad4y clearfix'>
+
+	<div class='speaker--container'>
+
+	 	{% for p in site.speaker-list %}
+	 		<div id = "{{ p.name | remove: ' '}}">
+				<div class='speaker--card'>
+					<div class='speaker--image' style='background-image: url("../img/speaker-imgs/{{ p.img }}.jpg");'></div>
+					<div class='speaker--title'>{{ p.name }}</div>
+					<div class='speaker--information'>{{ p.organization }}</div>
+					<div class='speaker--contact'>TALKS</div>
+					{% if p.talk %}
+					<div class='speaker--talks'><a href="{{ site.baseurl }}/program/#{{ p.talk | remove: ' ' }}">{{ p.talk }}</a></div>
+					{% endif %}
+					{% if p.talks %}
+						{% for t in p.talks %}
+							<div class='speaker--talks'><a href="{{ site.baseurl }}/program/#{{ t.talk | remove: ' ' }}">{{ t.talk }}</a></div>
+						{% endfor %}
+					{% endif %}
+					{% if p.twitter-handle %}
+					<div class='speaker--twitter'><a href="https://twitter.com/{{ p.twitter-handle }}"><img src="../img/twitter.svg"></img>{{ p.twitter-handle }}</a></div>
+					{% endif %}
+					{% if p.osm-handle %}
+					<div class='speaker--osm'><a href="https://www.openstreetmap.org/user/{% if osm-link %}{{ osm-link }}{% else %}{{ p.osm-handle }}{% endif %}"><img src="../img/osm_logo.png"></img>{{ p.osm-handle }}</a></div>
+					{% endif %}
+				</div>
+			</div>
+		{% endfor %}
+
+	</div>
+
+</div>
