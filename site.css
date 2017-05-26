@@ -48,7 +48,7 @@ a:hover { color:#68c7dd; }
   margin-bottom:0;
   }
   .schedule table tr td {
-    padding:12px 10px;
+    padding:12px 1em;
     border-width:0 0 1px 0;
     border-color:#eee;
     }
@@ -565,7 +565,7 @@ a{ transition: color 0.2s; }
 
 .event--title{
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 1.2em;
   float: left;
   margin-bottom: 1em;
   line-height: 24px;
@@ -627,7 +627,7 @@ td{
 }
 
 .event--cell__padding{
-  padding:3em 1em 3em 3em;
+  padding:2em 1em 1em 3em;
 }
 
 .event--organization{
@@ -670,7 +670,7 @@ td{
 }
 
 thead th:first-child{
-  width:116px;
+  width:140px;
 }
 
 thead th:nth-child(2n){
