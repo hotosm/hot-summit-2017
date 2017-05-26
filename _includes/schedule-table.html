@@ -17,14 +17,16 @@
 					<td class="event--organization">{{ e.time }}</td>
 					<td class="event--organization event--cell__padding">
 						<span>{{ e.event }}</span>
-						{% if e.location %}<div class="event--location">{{ e.location }}</div>{% endif %}
+ 						<!--{% if e.location %}
+							<div class="event--location">{{ e.location }}</div>
+						{% endif %}-->					
 					</td>
 
 				{% elsif e.type == "session" %}
 					<td id="{{ e.event | remove: ' ' }}" style="padding-top: 2em;">{{ e.time }}</td>
 					<td class="event--cell__padding">
 						<div class="event--title">{{ e.event }}</div>
-						<div class="event--location">{{ e.location }}</div>
+						<!-- <div class="event--location">{{ e.location }}</div> -->
 						<div class="event--host">
 							{% for s in e.speakers %}
 								<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
@@ -43,7 +45,7 @@
 					<td class= "tester">
 						<div class="event--split event--cell__padding">
 							<div class="event--title">{{ e.session-a-event }}</div>
-							<div class="event--location__split">{{ e.session-a-location }}</div>
+							<!-- <div class="event--location__split">{{ e.session-a-location }}</div> -->
 							<div class="event--host">
 								{% for t in e.session-a-talks %}
 									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
@@ -57,7 +59,7 @@
 						</div>
 						<div class="event--split event--cell__padding event--split__right" id="{{ e.session-b-event | remove: ' '}}">
 							<div class="event--title">{{ e.session-b-event }}</div>
-							<div class="event--location__split">{{ e.session-b-location }}</div>
+							<!-- <div class="event--location__split">{{ e.session-b-location }}</div> -->
 							<div class="event--host">
 								{% for t in e.session-b-talks %}
 									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
