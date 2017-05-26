@@ -1,16 +1,16 @@
 ---
 type: "split-session"
-day: 1
+day: 2
 
-time: 15:15 - 16:00
+time: 11:30 - 12:30
 
-session-a-event: "Breakout Session #7 - Community"
+session-a-event: Community Building Facilitated Discussion
 session-a-location:
 session-a-talks:
 - title: ""
   speakers:
 
-session-b-event: "Breakout Session #8 - Technology"
+session-b-event: Tech Facilitated Discussion
 session-b-location:
 session-b-talks:
 - title: ""
