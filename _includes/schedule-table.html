@@ -1,0 +1,104 @@
+<table class=''>
+	<thead>
+		<tr>
+			<th>Time</th>
+			<th>Events</th>
+			<th></th>
+		</tr>
+	</thead>
+</table>
+
+<table class=''>
+ 	<tbody>
+	 	{% for e in site.schedule-list %}
+	 		{% if e.day == include.day %}
+		 		<tr>
+				{% if e.type == "admin" %}
+					<td class="event--organization">{{ e.time }}</td>
+					<td class="event--organization event--cell__padding">
+						<span>{{ e.event }}</span>
+ 						<!--{% if e.location %}
+							<div class="event--location">{{ e.location }}</div>
+						{% endif %}-->					
+					</td>
+
+				{% elsif e.type == "session" %}
+					<td id="{{ e.event | remove: ' ' }}" class="event--fill" style="padding-top: 2em;">{{ e.time }}</td>
+					<td class="event--cell__padding event--fill">
+						<div class="event--title">{{ e.event }}</div>
+						<!-- <div class="event--location">{{ e.location }}</div> -->
+						<div class="event--host">
+							{% for s in e.speakers %}
+								<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
+									<span>{{ s.org }}</span>
+								{% endif %}
+							{% endfor %}
+						</div>
+							{% if e.description %}
+								<div class="event--description">{{ e.description }}</div>
+							{% endif %}
+					</td>
+
+
+				{% elsif e.type == "split-session" %}
+					<td class="event--fill" style="padding-top: 2em;">{{ e.time }}</td>
+					<td class= "tester">
+						<div class="event--split event--cell__padding event--fill">
+							<div class="event--title">{{ e.session-a-event }}</div>
+							<!-- <div class="event--location__split">{{ e.session-a-location }}</div> -->
+							<div class="event--host">
+								{% for t in e.session-a-talks %}
+									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
+									{% for s in t.speakers %}
+										<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
+									<span>{{ s.org }}</span>
+								{% endif %}
+									{% endfor %}
+								{% endfor %}
+							</div>
+						</div>
+						<div class="event--split event--cell__padding event--split__right event--fill" id="{{ e.session-b-event | remove: ' '}}">
+							<div class="event--title">{{ e.session-b-event }}</div>
+							<!-- <div class="event--location__split">{{ e.session-b-location }}</div> -->
+							<div class="event--host">
+								{% for t in e.session-b-talks %}
+									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
+									{% for s in t.speakers %}
+										<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
+									<span>{{ s.org }}</span>
+								{% endif %}
+									{% endfor %}
+								{% endfor %}
+							</div>
+					</td>
+
+				{% elsif e.type == "lightning" %}
+					<td style="padding-top: 3em;">{{ e.time }}</td>
+					<td class="event--cell__padding">
+						<div class="event--title">{{ e.event }}</div>
+						<div class="event--location lightning--location">{{ e.location }}</div>
+						<div class="event--host">
+							{% for l in e.talks %}
+								<div class="event--talk" id="{{ l.title | remove: ' ' }}"><a>{{ l.title }}</a></div>
+								<p><a href="{{ site.baseurl }}/speakers/#{{ l.speaker | remove: ' ' }}">{{ l.speaker }}</a>{% if l.org %}, 
+									<span>{{ l.org }}</span>
+								{% endif %}
+								</p>
+
+								{% for s in l.speakers %}
+									<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
+										<span>{{ s.org }}</span>
+									{% endif %}
+								{% endfor %}
+							{% endfor %}
+						</div>
+							{% if e.description %}
+								<div class="event--description">{{ e.description }}</div>
+							{% endif %}
+					</td>
+				{% endif %}
+				</tr>
+			{% endif %}
+		{% endfor %}
+	</tbody>
+</table>

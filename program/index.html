@@ -7,7 +7,7 @@ published: true
 
 <div class='fill-blue'>
   <div class='liner clearfix center fill-darken3 dark col12 program-header-fix'>
-    <h2 class='pad2'>HOT Summit 2017 Schedule</h2>
+    <h2 class='pad2'>HOT Summit 2017 Schedule Outline</h2>
   </div>
 </div>
 
@@ -17,108 +17,12 @@ published: true
 
 <div class='limiter pad4y clearfix'>
 
-<h3 class='pad2 center'>Full program to be posted soon!</h3>
+<h2 class="schedule--title">Thursday, September 14</h2>
 
-<!-- <table class=''>
-	<thead>
-		<tr>
-			<th>Time</th>
-			<th>Events</th>
-			<th>Location</th>
-		</tr>
-	</thead>
-</table>
+{% include schedule-table.html day=1 %}
 
-<table class=''>
- 	<tbody>
-	 	{% for e in site.schedule-list %}
-	 		<tr>
-			{% if e.type == "admin" %}
-				<td class="event--organization">{{ e.time }}</td>
-				<td class="event--organization event--cell__padding">
-					<span>{{ e.event }}</span>
-					{% if e.location %}<div class="event--location">{{ e.location }}</div>{% endif %}
-				</td>
+<h2 class="schedule--title">Friday, September 15</h2>
 
-			{% elsif e.type == "session" %}
-				<td id="{{ e.event | remove: ' ' }}" style="padding-top: 3em;">{{ e.time }}</td>
-				<td class="event--cell__padding">
-					<div class="event--title">{{ e.event }}</div>
-					<div class="event--location">{{ e.location }}</div>
-					<div class="event--host">
-						{% for s in e.speakers %}
-							<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
-								<span>{{ s.org }}</span>
-							{% endif %}
-						{% endfor %}
-					</div>
-						{% if e.description %}
-							<div class="event--description">{{ e.description }}</div>
-						{% endif %}
-				</td>
-
-
-			{% elsif e.type == "split-session" %}
-				<td style="padding-top: 3em;">{{ e.time }}</td>
-				<td class= "tester">
-					<div class="event--split event--cell__padding">
-						<div class="event--title">{{ e.session-a-event }}</div>
-						<div class="event--location__split">{{ e.session-a-location }}</div>
-						<div class="event--host">
-							{% for t in e.session-a-talks %}
-								<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
-								{% for s in t.speakers %}
-									<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
-								<span>{{ s.org }}</span>
-							{% endif %}
-								{% endfor %}
-							{% endfor %}
-						</div>
-					</div>
-					<div class="event--split event--cell__padding event--split__right" id="{{ e.session-b-event | remove: ' '}}">
-						<div class="event--title">{{ e.session-b-event }}</div>
-						<div class="event--location__split">{{ e.session-b-location }}</div>
-						<div class="event--host">
-							{% for t in e.session-b-talks %}
-								<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
-								{% for s in t.speakers %}
-									<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
-								<span>{{ s.org }}</span>
-							{% endif %}
-								{% endfor %}
-							{% endfor %}
-						</div>
-				</td>
-
-			{% elsif e.type == "lightning" %}
-				<td style="padding-top: 3em;">{{ e.time }}</td>
-				<td class="event--cell__padding">
-					<div class="event--title">{{ e.event }}</div>
-					<div class="event--location lightning--location">{{ e.location }}</div>
-					<div class="event--host">
-						{% for l in e.talks %}
-							<div class="event--talk" id="{{ l.title | remove: ' ' }}"><a>{{ l.title }}</a></div>
-							<p><a href="{{ site.baseurl }}/speakers/#{{ l.speaker | remove: ' ' }}">{{ l.speaker }}</a>{% if l.org %}, 
-								<span>{{ l.org }}</span>
-							{% endif %}
-							</p>
-
-							{% for s in l.speakers %}
-								<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
-									<span>{{ s.org }}</span>
-								{% endif %}
-							{% endfor %}
-						{% endfor %}
-					</div>
-						{% if e.description %}
-							<div class="event--description">{{ e.description }}</div>
-						{% endif %}
-				</td>
-			{% endif %}
-			</tr>
-		{% endfor %}
-	</tbody>
-</table>
- -->
+{% include schedule-table.html day=2 %}
 
 </div>

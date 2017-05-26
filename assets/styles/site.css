@@ -48,7 +48,7 @@ a:hover { color:#68c7dd; }
   margin-bottom:0;
   }
   .schedule table tr td {
-    padding:12px 10px;
+    padding:12px 1em;
     border-width:0 0 1px 0;
     border-color:#eee;
     }
@@ -563,14 +563,17 @@ a{ transition: color 0.2s; }
 /** Schedule
 ===================================*/
 
+.schedule--title {
+  margin: 3rem 0;
+}
+
 .event--title{
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 1.1em;
   float: left;
   margin-bottom: 1em;
   line-height: 24px;
   font-family: 'Kreon', serif;
-  border-bottom: 2px solid #ddd;
 }
 
 .event--location{
@@ -606,9 +609,8 @@ a{ transition: color 0.2s; }
 }
 
 .event--organization span{
-  font-weight: 800;
   font-family: 'Kreon', serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 td{
@@ -627,13 +629,12 @@ td{
 }
 
 .event--cell__padding{
-  padding:3em 1em 3em 3em;
+  padding:2em 1em 1em 3em;
 }
 
 .event--organization{
-  background-color: #f0f0f0;
   line-height:28px;
-  padding: 2em 0 1.5em 3em;
+  padding: 1em 0 1em 3em;
 }
 
 .event--cell__time{
@@ -669,8 +670,12 @@ td{
 /*  color: rgb(215, 63, 63);*/
 }
 
+.event--fill {
+  background-color: #f0f0f0;
+}
+
 thead th:first-child{
-  width:116px;
+  width:140px;
 }
 
 thead th:nth-child(2n){
