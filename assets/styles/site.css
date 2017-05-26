@@ -563,6 +563,10 @@ a{ transition: color 0.2s; }
 /** Schedule
 ===================================*/
 
+.schedule--title {
+  margin: 3rem 0;
+}
+
 .event--title{
   font-weight: 800;
   font-size: 1.1em;
@@ -629,9 +633,8 @@ td{
 }
 
 .event--organization{
-  background-color: #f0f0f0;
   line-height:28px;
-  padding: 2em 0 1.5em 3em;
+  padding: 1em 0 1em 3em;
 }
 
 .event--cell__time{
@@ -665,6 +668,10 @@ td{
 
 .event--talk a:hover{
 /*  color: rgb(215, 63, 63);*/
+}
+
+.event--fill {
+  background-color: #f0f0f0;
 }
 
 thead th:first-child{

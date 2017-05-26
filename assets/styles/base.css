@@ -848,7 +848,7 @@ table {
   }
   table td:first-child {
     line-height: 24px;
-    padding:2em 0 8px 1em;
+    padding:1em 0 1em 1em;
     width:140px;
     line-height:28px;
   }
@@ -1513,6 +1513,7 @@ a > .rcon:after,
 
 .pad1y { padding-top: 10px; padding-bottom: 10px;}
 .pad2y { padding-top: 20px; padding-bottom: 20px;}
+.pad3y { padding-top: 30px; padding-bottom: 30px;}
 .pad4y { padding-top: 40px; padding-bottom: 40px;}
 
 /* Keylines

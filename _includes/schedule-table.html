@@ -23,8 +23,8 @@
 					</td>
 
 				{% elsif e.type == "session" %}
-					<td id="{{ e.event | remove: ' ' }}" style="padding-top: 2em;">{{ e.time }}</td>
-					<td class="event--cell__padding">
+					<td id="{{ e.event | remove: ' ' }}" class="event--fill" style="padding-top: 2em;">{{ e.time }}</td>
+					<td class="event--cell__padding event--fill">
 						<div class="event--title">{{ e.event }}</div>
 						<!-- <div class="event--location">{{ e.location }}</div> -->
 						<div class="event--host">
@@ -41,9 +41,9 @@
 
 
 				{% elsif e.type == "split-session" %}
-					<td style="padding-top: 3em;">{{ e.time }}</td>
+					<td class="event--fill" style="padding-top: 2em;">{{ e.time }}</td>
 					<td class= "tester">
-						<div class="event--split event--cell__padding">
+						<div class="event--split event--cell__padding event--fill">
 							<div class="event--title">{{ e.session-a-event }}</div>
 							<!-- <div class="event--location__split">{{ e.session-a-location }}</div> -->
 							<div class="event--host">
@@ -57,7 +57,7 @@
 								{% endfor %}
 							</div>
 						</div>
-						<div class="event--split event--cell__padding event--split__right" id="{{ e.session-b-event | remove: ' '}}">
+						<div class="event--split event--cell__padding event--split__right event--fill" id="{{ e.session-b-event | remove: ' '}}">
 							<div class="event--title">{{ e.session-b-event }}</div>
 							<!-- <div class="event--location__split">{{ e.session-b-location }}</div> -->
 							<div class="event--host">
