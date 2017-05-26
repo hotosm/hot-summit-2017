@@ -1,0 +1,12 @@
+<nav class='pad2 fill-red site-navigation center'>
+  <nav class='navigation-container'>
+  <a class='strong {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+  <a class='strong {% if page.url contains "program" %}active{% endif %}' href='{{site.baseurl}}/program/'>Program</a>
+<!--   <a class='strong {% if page.url contains "speakers" %}active{% endif %}' href='{{site.domain}}{{site.baseurl}}/speakers/'>Speakers</a> -->
+  <!-- <a class='strong {% if page.url contains "venue" %}active{% endif %}' href='{{site.domain}}{{site.baseurl}}/venue/'>Venue Info</a> -->
+  <a class='strong {% if page.url contains "about" %}active{% endif %}' href='{{site.domain}}{{site.baseurl}}/about/'>About</a>
+ <!-- <a class='strong {% if page.url contains "register" %}active{% endif %}' href='' target='_blank'>Register</a> -->
+  <a class='strong {% if page.url contains "sponsor" %}active{% endif %}' href='{{site.domain}}{{site.baseurl}}/sponsor/'>Sponsor</a>
+  <a href='https://twitter.com/search?q=%23hotsummit&src=typd' target='_blank' class='hide-mobile inline small strong dark'><img src='{{site.domain}}{{ site.baseurl }}/img/twitter.svg' class = 'icon-img'/> #hotsummit</a>
+  </nav>
+</nav>
