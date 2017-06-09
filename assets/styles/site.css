@@ -552,6 +552,10 @@ a{ transition: color 0.2s; }
   vertical-align: middle;
 }
 
+.statcan-logo {
+  max-width:190px!important;
+}
+
  #mc_embed_signup{
   background:#fff; 
   clear:left; 
