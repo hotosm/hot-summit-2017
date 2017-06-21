@@ -2,7 +2,7 @@
 type: "split-session"
 day: 1
 
-time: 11:45 - 12:30
+time: 13:30 - 14:30
 
 session-a-event: "Breakout Session #5"
 session-a-location:
