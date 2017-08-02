@@ -10,7 +10,7 @@ session-a-talks:
 - title: ""
   speakers:
 
-session-b-event: Discussion
+session-b-event: Facilitated Discussion
 session-b-location:
 session-b-talks:
 - title: ""
