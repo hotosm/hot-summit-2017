@@ -1,7 +1,7 @@
 ---
 img: dummy_m
 name: Stefano Disperati
-organization: HOT
+organization: Humanitarian OpenStreetMap Team
 
 talk: "Open Mapping for Non-Camp Refugees (Northern Uganda & Istanbul, Turkey) "
 
