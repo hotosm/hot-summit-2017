@@ -5,15 +5,21 @@ day: 2
 time: 11:30 - 12:30
 
 session-a-event: Facilitated Discussion
-session-a-location:
+session-a-location: Bayview Yards
 session-a-talks:
-- title: ""
+- title: "HDM, Health, and Thematic Tagging"
   speakers:
+    - name: Mhairi O'Hara
+      org: Humanitarian OpenStreetMap Team
+    - name: Violaine Doutreleau
+      org: CartONG
 
 session-b-event: Facilitated Discussion
-session-b-location:
+session-b-location: Bayview Yards
 session-b-talks:
-- title: ""
+- title: "Data Quality & Validation"
   speakers:
+    - name: Chad Blevins
+      org: USAID
 
 ---

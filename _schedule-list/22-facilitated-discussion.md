@@ -5,15 +5,19 @@ day: 2
 time: 10:00 - 11:00
 
 session-a-event: Facilitated Discussion
-session-a-location:
+session-a-location: Bayview Yards
 session-a-talks:
-- title: ""
+- title: "Health & OpenStreetMap"
   speakers:
+    - name: TBC
+      org: American Red Cross
 
 session-b-event: Facilitated Discussion
-session-b-location:
+session-b-location: Bayview Yards
 session-b-talks:
-- title: ""
+- title: "New Tech & Machine Learning in HOT Workflows"
   speakers:
+    - name: Ian Schuler
+      org: Development Seed
 
 ---

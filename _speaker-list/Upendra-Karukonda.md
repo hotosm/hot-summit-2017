@@ -1,7 +1,7 @@
 ---
 img: dummy_m
 name: Upendra Karukonda
-organization: MapGive
+organization: Mapbox
 
 talk: "How a Company Collaborates with HOT"
 

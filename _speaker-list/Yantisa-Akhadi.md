@@ -1,7 +1,7 @@
 ---
 img: yantisaakhadi
 name: Yantisa Akhadi
-organization: HOT
+organization: Humanitarian OpenStreetMap Team Indonesia
 
 talk: "Disaster Management Mapping for Indonesian Cities"
 
