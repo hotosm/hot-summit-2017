@@ -3,7 +3,7 @@ img: dummy_f
 name: Drishtie Patel
 organization: Facebook
 
-talk: ""
+talk: "Facebook Disaster Maps and OSM"
 
 twitter-handle: 
 ---

@@ -3,7 +3,7 @@ img: dummy_m
 name: Upendra Karukonda
 organization: MapGive
 
-talk: ""
+talk: "How a Company Collaborates with HOT"
 
 twitter-handle:
 ---
