@@ -840,9 +840,10 @@ table {
     padding: 0;
     text-align:left;
     vertical-align:top;
-    border:1px solid #ccc;
+    border-bottom:1px solid #bbb;
     border-left: 1px dashed #ddd;
     border-right: 1px dashed #ddd;
+    background-color: #f0f0f0;
   }
   table th:first-child{
   }

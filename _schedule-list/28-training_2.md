@@ -2,7 +2,8 @@
 type: "split-session"
 day: 2
 
-time: 15:00 - 17:00
+time: ""
+splitFix: "event-split__td-fix"
 
 session-a-event: "Training Session #3"
 session-a-location: Bayview Yards
