@@ -9,5 +9,6 @@ location: Bayview Yards
 speakers:
 - name: Tyler Radford
   org: HOT Executive Director
-
+- name: Jackey Mayda
+  org: Director, International Co-operation and Corporate Statistical Methods Division, Statistics Canada
 ---

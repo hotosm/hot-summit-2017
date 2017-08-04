@@ -10,7 +10,7 @@ session-a-location: Bayview Yards
 session-a-talks:
 - title: "Health & OpenStreetMap"
   speakers:
-    - name: TBC
+    - name: Emily Eros
       org: American Red Cross
 
 session-b-event: Facilitated Discussion

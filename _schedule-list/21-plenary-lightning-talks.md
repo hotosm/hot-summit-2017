@@ -10,7 +10,7 @@ talks:
 - title: "YouthMappers: young leadership fellowship"
   speaker: Yasmila Nogajack
   org: YouthMappers
-- title: "Ramani Huria; Impacting the local community for and beyond Flood Resilience"
+- title: "Ramani Huria: Impacting the local community for and beyond Flood Resilience"
   speaker: Innocent Maholi
   org: Humanitarian OpenStreetMap Team
 - title: "HOT Community Mapping for Economic Development and Decentralization in Liberia"
