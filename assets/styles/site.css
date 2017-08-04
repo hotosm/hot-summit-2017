@@ -556,7 +556,22 @@ a{ transition: color 0.2s; }
 }
 
 .fb-platnium {
-  max-width:285px!important;
+  max-width:340px!important;
+  max-height:120px!important;
+}
+
+.mb-gold {
+  max-width:260px!important;
+  max-height:110px!important;
+}
+
+.bing-gold {
+  max-width:200px!important;
+  max-height:100px!important;
+}
+
+.mz-silver {
+  max-width:170px!important;
   max-height:100px!important;
 }
 
