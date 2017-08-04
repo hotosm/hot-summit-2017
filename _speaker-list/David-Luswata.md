@@ -5,5 +5,5 @@ organization: Humanitarian OpenStreetMap Team Liberia
 
 talk: "HOT Community Mapping for Economic Development and Decentralization in Liberia"
 
-twitter-handle: 
+twitter-handle: lusdavo
 ---

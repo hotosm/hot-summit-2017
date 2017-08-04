@@ -1,5 +1,5 @@
 ---
-img: dummy_f
+img: rebeccafirth
 name: Rebecca Firth
 organization: Humanitarian OpenStreetMap Team
 

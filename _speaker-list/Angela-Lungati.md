@@ -1,9 +1,9 @@
 ---
-img: dummy_f
-name: Angela Odour Lungati
+img: angelalungati
+name: Angela Oduor Lungati
 organization: Ushahidi
 
 talk: "A Crisis Simulation using the Ushahidi Platform"
 
-twitter-handle:
+twitter-handle: AngieNicoleOD
 ---

@@ -1,9 +1,9 @@
 ---
-img: dummy_f
+img: emilyeros
 name: Emily Eros
 organization: American Red Cross
 
 talk: "Health & OpenStreetMap"
 
-twitter-handle:
+twitter-handle: emilyeros
 ---

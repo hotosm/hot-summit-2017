@@ -1,5 +1,5 @@
 ---
-img: dummy_m
+img: mikelmaron
 name: Mikel Maron
 organization: Mapbox
 

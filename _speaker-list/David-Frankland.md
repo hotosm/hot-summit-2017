@@ -5,5 +5,5 @@ organization: thinkWhere
 
 talk: "Tasking Manger: How to be a project manager workshop"
 
-twitter-handle:
+twitter-handle: dcfrankland
 ---

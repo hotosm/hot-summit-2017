@@ -1,5 +1,5 @@
 ---
-img: dummy_f
+img: katelynwoolheater
 name: Katelyn Woolheater
 organization: Clinton Health Access Initiative
 

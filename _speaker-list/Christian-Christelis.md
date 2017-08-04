@@ -5,5 +5,5 @@ organization: Kartoza
 
 talk: "Organized, distributed OpenStreetMap field mapping with Field Campaigner"
 
-twitter-handle:
+twitter-handle: christelis
 ---

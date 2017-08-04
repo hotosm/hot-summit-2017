@@ -1,9 +1,9 @@
 ---
-img: dummy_m
+img: ianschuler
 name: Ian Schuler
 organization: Development Seed
 
 talk: "New Tech & Machine Learning in HOT Workflows"
 
-twitter-handle:
+twitter-handle: ianschuler
 ---

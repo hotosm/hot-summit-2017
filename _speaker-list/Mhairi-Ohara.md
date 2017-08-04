@@ -5,5 +5,5 @@ organization: Humanitarian OpenStreetMap Team
 
 talk: "Disaster Management Mapping for Indonesian Cities"
 
-twitter-handle:
+twitter-handle: mataharimhairi
 ---

@@ -1,9 +1,9 @@
 ---
-img: dummy_m
+img: tylerradford
 name: Tyler Radford
 organization: Humanitarian OpenStreetMap Team
 
 talk: "Welcome Address"
 
-twitter-handle:
+twitter-handle: TylerSRadford
 ---

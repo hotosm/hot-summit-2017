@@ -1,5 +1,5 @@
 ---
-img: dummy_f
+img: mariaespinosa
 name: Maria Espinosa
 organization: "Int'l Displacement Monitoring Centre"
 
