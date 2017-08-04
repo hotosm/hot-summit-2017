@@ -16,7 +16,7 @@ talks:
 - title: "HOT Community Mapping for Economic Development and Decentralization in Liberia"
   speaker: David Luswata
   org: Humanitarian OpenStreetMap Team
-- title: "Displaced Communities and OSM"
-  speaker: Maria Espinosa
+- title: "Using OSM data to understand internal displacement context"
+  speaker: Maria Teresa Miranda
   org: "Int'l Displacement Monitoring Centre"
 ---
