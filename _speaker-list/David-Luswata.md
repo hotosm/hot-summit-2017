@@ -1,5 +1,5 @@
 ---
-img: dummy_m
+img: davidluswata
 name: David Luswata
 organization: Humanitarian OpenStreetMap Team Liberia
 
