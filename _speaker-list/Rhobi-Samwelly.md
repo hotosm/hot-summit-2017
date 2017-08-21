@@ -1,5 +1,5 @@
 ---
-img: dummy_m
+img: rhobisamwelly
 name: Rhobi Samwelly
 organization: Tanzania Development Trust/Crowd2Map
 
