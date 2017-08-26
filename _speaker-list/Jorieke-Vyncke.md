@@ -5,6 +5,6 @@ organization: "Médecins Sans Frontières (MSF)"
 
 talk: "Conflict & Responsbile Mapping"
 
-twitter-handle: 
+twitter-handle: Zjwarie
 osm-handle: 
 ---
