@@ -1,5 +1,5 @@
 ---
-img: dummy_m
+img: tommueller
 name: Tom Mueller
 organization: California University of Pennsylvania 
 

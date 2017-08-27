@@ -1,5 +1,5 @@
 ---
-img: dummy_f
+img: mhairioHara
 name: "Mhairi O'Hara"
 organization: Humanitarian OpenStreetMap Team
 
