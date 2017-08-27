@@ -19,4 +19,10 @@ talks:
 - title: "Using OSM data to understand internal displacement context"
   speaker: Maria Teresa Miranda
   org: "Int'l Displacement Monitoring Centre"
+- title: "Making OSM Data work for humanitarians"
+  speaker: David Megginson
+  org: HDX
+- title: "Crowdsourcing post-earthquake building damage: comparing building-level vs area-based damage estimation"
+  speaker: Melanie Eckle
+  org: Heidelberg University
 ---
