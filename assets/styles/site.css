@@ -593,7 +593,6 @@ a{ transition: color 0.2s; }
 .event--title{
   font-weight: 800;
   font-size: 1.1em;
-  float: left;
   margin-bottom: 1em;
   line-height: 24px;
   font-family: 'Kreon', serif;
@@ -724,6 +723,7 @@ thead th:nth-child(2n){
   clear:both;
   margin-bottom: 1.5em;
   max-width:150px;
+  float:right;
 }
 
 .event-split__td-fix{

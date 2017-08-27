@@ -3,7 +3,8 @@ type: "admin"
 day: 1
 
 time: 17:00 - 20:00
-event: Mapathon and reception. Food and drinks provided.
+event: Mapathon and Reception
 location: TBC
+details: Food and drinks provided
 
 ---

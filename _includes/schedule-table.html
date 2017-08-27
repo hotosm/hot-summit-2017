@@ -17,16 +17,19 @@
 					<td class="event--organization">{{ e.time }}</td>
 					<td class="event--organization event--cell__padding">
 						<span>{{ e.event }}</span>
- 						<!--{% if e.location %}
+ 						{% if e.location %}
 							<div class="event--location">{{ e.location }}</div>
-						{% endif %}-->					
+						{% endif %}
+						{% if e.details %}
+							<div class="event--details">{{ e.details }}</div>
+						{% endif %}				
 					</td>
 
 				{% elsif e.type == "session" %}
 					<td id="{{ e.event | remove: ' ' }}" class="event--fill" style="padding-top: 2em;">{{ e.time }}</td>
 					<td class="event--cell__padding event--fill">
-						<div class="event--title">{{ e.event }}</div>
-						<!-- <div class="event--location">{{ e.location }}</div> -->
+						<span class="event--title">{{ e.event }}</span>
+						<div class="event--location">{{ e.location }}</div>
 						<div class="event--host">
 							{% for s in e.speakers %}
 								<p><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
@@ -44,8 +47,8 @@
 					<td class="event--fill {% if e.simultaneous == 1 %}split-session-fill{% endif %}" style="padding-top: 2em;">{{ e.time }}</td>
 					<td class= "event-split__td-fix {% if e.simultaneous == 1 %}split-session-td-fix{% endif %}">
 						<div class="event--split event--cell__padding event--fill">
-							<div class="event--title">{{ e.session-a-event }}</div>
-							<!-- <div class="event--location__split">{{ e.session-a-location }}</div> -->
+							<span class="event--title">{{ e.session-a-event }}</span>
+							<div class="event--location__split">{{ e.session-a-location }}</div>
 							<div class="event--host">
 								{% for t in e.session-a-talks %}
 									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
@@ -58,8 +61,8 @@
 							</div>
 						</div>
 						<div class="event--split event--cell__padding event--split__right event--fill" id="{{ e.session-b-event | remove: ' '}}">
-							<div class="event--title">{{ e.session-b-event }}</div>
-							<!-- <div class="event--location__split">{{ e.session-b-location }}</div> -->
+							<span class="event--title">{{ e.session-b-event }}</span>
+							<div class="event--location__split">{{ e.session-b-location }}</div>
 							<div class="event--host">
 								{% for t in e.session-b-talks %}
 									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
