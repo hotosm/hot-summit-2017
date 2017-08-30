@@ -1,6 +1,6 @@
 ---
 img: dummy_f
-name: Yasmila Nogajack
+name: Yasmila Sáenz Herrera
 organization: YouthMappers
 
 talk: "YouthMappers: young leadership fellowship"
