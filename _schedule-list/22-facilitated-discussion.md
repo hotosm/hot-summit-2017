@@ -10,8 +10,9 @@ session-a-location: Bayview Yards
 session-a-talks:
 - title: "Health & OpenStreetMap"
   speakers:
-    - name: Emily Eros
+    - name: Dale Kunce
       org: American Red Cross
+  link: discussion/health-and-openstreetmap
 
 session-b-event: Facilitated Discussion
 session-b-location: Bayview Yards
@@ -20,5 +21,6 @@ session-b-talks:
   speakers:
     - name: Ian Schuler
       org: Development Seed
+  link: discussion/new-tech
 
 ---

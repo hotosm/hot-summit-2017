@@ -9,7 +9,10 @@ session-a-location: Bayview Yards
 session-a-talks:
 - title: "Building Local Mapping Communities"
   speakers:
-    - name: TBC
-      org:
+    - name: Yantisa Akhadi
+      org: Humanitarian OpenStreetMap Team
+    - name: Ahasanul Hoque
+      org: OSM Bangladesh
+  link: discussion/local-communities
 
 ---

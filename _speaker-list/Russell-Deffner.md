@@ -1,5 +1,5 @@
 ---
-img: dummy_m
+img: russelldeffner
 name: Russell Deffner
 organization: Humanitarian OpenStreetMap Team
 

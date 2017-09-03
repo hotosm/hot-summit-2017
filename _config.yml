@@ -11,3 +11,5 @@ collections:
     output: true
   events:
     ouput: true
+  discussions:
+    output: true
