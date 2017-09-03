@@ -51,7 +51,11 @@
 							<div class="event--location__split">{{ e.session-a-location }}</div>
 							<div class="event--host">
 								{% for t in e.session-a-talks %}
+									{% if t.link %}
+									<div class="event--talk link" id="{{ t.title | remove: ' '}}"><a href="{{ site.baseurl }}/{{ t.link }}">{{ t.title }}</a></div>
+									{% else %}
 									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
+									{% endif %}
 									{% for s in t.speakers %}
 										<p class="event--talk__speaker"><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
 									<span>{{ s.org }}</span>
@@ -65,7 +69,11 @@
 							<div class="event--location__split">{{ e.session-b-location }}</div>
 							<div class="event--host">
 								{% for t in e.session-b-talks %}
+									{% if t.link %}
+									<div class="event--talk link" id="{{ t.title | remove: ' '}}"><a href="{{ site.baseurl }}/{{ t.link }}">{{ t.title }}</a></div>
+									{% else %}
 									<div class="event--talk" id="{{ t.title | remove: ' '}}"><a>{{ t.title }}</a></div>
+									{% endif %}
 									{% for s in t.speakers %}
 										<p class="event--talk__speaker"><a href="{{ site.baseurl }}/speakers/#{{ s.name | remove: ' ' }}">{{ s.name }}</a>{% if s.org %}, 
 									<span>{{ s.org }}</span>

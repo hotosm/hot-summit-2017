@@ -692,6 +692,10 @@ td{
   color: black;
 }
 
+.event--talk.link a{
+  color: #d73f3f;
+}
+
 .event--talk a:hover{
 /*  color: rgb(215, 63, 63);*/
 }

@@ -9,7 +9,10 @@ session-a-location: Bayview Yards
 session-a-talks:
 - title: "Conflict & Responsbile Mapping"
   speakers:
-    - name: "Médecins Sans Frontières (MSF)"
-      org: 
+    - name: Pete Masters
+      org: "Médecins Sans Frontières (MSF)"
+    - name: Jorieke Vyncke
+      org: "Médecins Sans Frontières (MSF)"
+  link: discussion/conflict-and-responsible-mapping
 
 ---
