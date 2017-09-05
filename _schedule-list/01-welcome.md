@@ -2,7 +2,7 @@
 type: "session"
 day: 1
 
-time: 09:15 - 09:30
+time: 09:30 - 09:45
 event: Welcome Address + Keynote
 location: Bayview Yards
 

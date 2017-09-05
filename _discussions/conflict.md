@@ -10,7 +10,7 @@ time: "September 15, 10:00 - 11:00"
 
 ---
 
-The HOT Community works in variety of contexts and This facilitated discussion will talk about some key issues around responsible and ethical mapping, and how the community can continue to do responsible mapping. 
+This facilitated discussion will talk about some key issues around responsible and ethical mapping, and how the community can continue to do responsible mapping. 
 
 ### Sign up for discussion ahead of time
 

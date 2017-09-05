@@ -2,7 +2,7 @@
 type: "split-session"
 day: 2
 
-time: 10:00 - 11:00
+time: 10:00 - 11:10
 simultaneous: 1
 
 session-a-event: Facilitated Discussion
