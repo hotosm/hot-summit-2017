@@ -7,7 +7,7 @@ time: ""
 session-a-event: Facilitated Discussion
 session-a-location: Bayview Yards
 session-a-talks:
-- title: "Conflict & Responsbile Mapping"
+- title: "Conflict & Responsible Mapping"
   speakers:
     - name: Pete Masters
       org: "Médecins Sans Frontières (MSF)"
