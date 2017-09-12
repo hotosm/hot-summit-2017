@@ -8,17 +8,19 @@ simultaneous: 1
 session-a-event: "Working Group Discussion"
 session-a-location: Bayview Yards
 session-a-talks:
-- title: "Activation Working Group (More info soon)"
+- title: "Activation Working Group"
   speakers:
-    - name:
-      org:
+    - name: Russell Deffner
+      org: Humanitarian OpenStreetMap Team
+    - name: Pete Masters
+      org: "Médecins Sans Frontières (MSF)"
 
 session-b-event: "Working Group Discussion"
 session-b-location: Bayview Yards
 session-b-talks:
-- title: "Community Working Group (More info soon)"
+- title: "Community Working Group"
   speakers:
-    - name:
-      org:
+    - name: Rebecca Firth
+      org: Humanitarian OpenStreetMap Team
 
 ---

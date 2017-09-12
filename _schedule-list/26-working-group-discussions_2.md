@@ -7,9 +7,9 @@ time: ""
 session-a-event: "Working Group Discussion"
 session-a-location: Bayview Yards
 session-a-talks:
-- title: "Fundraising Working Group (More info soon)"
+- title: "Fundraising Working Group"
   speakers:
-    - name:
-      org:
+    - name: Tyler Radford
+      org: Humanitarian OpenStreetMap Team
 
 ---
