@@ -1,9 +1,9 @@
 ---
-img: andrewmckenna
-name: Andrew McKenna
-organization: US State Dept HIU / MapGive
+img: Melanie.jpg
+name: Melanie Eckle
+organization: Heidelberg University
 
-talk: "Building the OSM Community through Youth Engagement"
+talk: "MapSwipe: One year of swiping and tapping to support humanitarian mapping"
 
-twitter-handle: mckennahhh
+
 ---
