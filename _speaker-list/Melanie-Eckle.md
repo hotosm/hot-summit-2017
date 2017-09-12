@@ -1,5 +1,5 @@
 ---
-img: Melanie.jpg
+img: Melanie
 name: Melanie Eckle
 organization: Heidelberg University
 
