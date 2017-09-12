@@ -29,7 +29,7 @@ session-b-talks:
       org: Humanitarian OpenStreetMap Team Indonesia
 - title: "Empowering female mappers in rural Tanzania"
   speakers:
-    - name: Rhobi Samwelly
+    - name: Janet Chapman
       org: "Tanzania Development Trust/Crowd2Map"
 
 ---
