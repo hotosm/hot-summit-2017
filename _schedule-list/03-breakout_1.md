@@ -27,5 +27,8 @@ session-b-talks:
   speakers:
     - name: Marcel Reinmuth
       org: Heidelberg University
+    - name: Melanie Eckle
+      org: Heidelberg University
+
 
 ---
