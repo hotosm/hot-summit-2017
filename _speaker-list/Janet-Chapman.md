@@ -1,5 +1,5 @@
 ---
-img: janetchapman.jpg
+img: janetchapman
 name: Janet Chapman
 organization: Tanzania Development Trust/Crowd2Map
 
