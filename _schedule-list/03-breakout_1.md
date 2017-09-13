@@ -5,7 +5,7 @@ day: 1
 time: 10:15 - 11:15
 
 session-a-event: "Breakout Session #1"
-session-a-location: Bayview Yards
+session-a-location: W101B
 session-a-talks:
 - title: "Crowdsourcing with Statistics Canada: lessons learned when using OSM for the purpose of national statistics"
   speakers:
@@ -17,7 +17,7 @@ session-a-talks:
       org: OSM Central American and Caribbean community
 
 session-b-event: "Breakout Session #2"
-session-b-location: Bayview Yards
+session-b-location: The Foundry
 session-b-talks:
 - title: "Facebook Disaster Maps and OSM"
   speakers:

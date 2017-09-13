@@ -4,7 +4,7 @@ day: 1
 
 time: 09:30 - 09:45
 event: Welcome Address + Keynote
-location: Bayview Yards
+location: The Foundry
 
 speakers:
 - name: Tyler Radford

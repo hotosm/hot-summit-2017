@@ -5,7 +5,7 @@ day: 1
 time: 15:15 - 16:00
 
 session-a-event: "Breakout Session #7"
-session-a-location: Bayview Yards
+session-a-location: The Foundry
 session-a-talks:
 - title: "Humanitarian Mapping Education: A View on Curriculum "
   speakers:
@@ -21,7 +21,7 @@ session-a-talks:
       org: USAID
 
 session-b-event: "Breakout Session #8"
-session-b-location: Bayview Yards
+session-b-location: W101B
 session-b-talks:
 - title: "Advocating Inclusivity through Mapping with Women, Youth, and Disabled Communities"
   speakers:

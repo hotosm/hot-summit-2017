@@ -6,7 +6,7 @@ time: 13:45 - 14:45
 simultaneous: 1
 
 session-a-event: "Working Group Discussion"
-session-a-location: Bayview Yards
+session-a-location: The Foundry
 session-a-talks:
 - title: "Activation Working Group"
   speakers:
@@ -16,7 +16,7 @@ session-a-talks:
       org: "Médecins Sans Frontières (MSF)"
 
 session-b-event: "Working Group Discussion"
-session-b-location: Bayview Yards
+session-b-location: W101B
 session-b-talks:
 - title: "Community Working Group"
   speakers:

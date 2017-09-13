@@ -5,9 +5,9 @@ day: 2
 time: ""
 
 session-a-event: Facilitated Discussion
-session-a-location: Bayview Yards
+session-a-location: The Boardroom
 session-a-talks:
-- title: "Conflict & Responsible Mapping"
+- title: "Mapping Through an Ethical Lens"
   speakers:
     - name: Pete Masters
       org: "Médecins Sans Frontières (MSF)"

@@ -5,7 +5,7 @@ day: 2
 time: ""
 
 session-a-event: Facilitated Discussion
-session-a-location: Bayview Yards
+session-a-location: The Boardroom
 session-a-talks:
 - title: "Building Local Mapping Communities"
   speakers:

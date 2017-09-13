@@ -4,6 +4,6 @@ day: 1
 
 time: 13:20 - 13:30
 event: Community Photo
-location: Bayview Yards
+location: Front of ICBY
 
 ---

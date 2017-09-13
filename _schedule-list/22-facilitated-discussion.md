@@ -6,7 +6,7 @@ time: 10:00 - 11:10
 simultaneous: 1
 
 session-a-event: Facilitated Discussion
-session-a-location: Bayview Yards
+session-a-location: W101B
 session-a-talks:
 - title: "Health & OpenStreetMap"
   speakers:
@@ -15,7 +15,7 @@ session-a-talks:
   link: discussion/health-and-openstreetmap
 
 session-b-event: Facilitated Discussion
-session-b-location: Bayview Yards
+session-b-location: The Foundry
 session-b-talks:
 - title: "New Tech & Machine Learning in HOT Workflows"
   speakers:

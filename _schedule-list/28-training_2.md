@@ -2,11 +2,10 @@
 type: "split-session"
 day: 2
 
-time: ""
-splitFix: "event-split__td-fix"
+time: 16:00 - 17:00
 
 session-a-event: "Training Session #3"
-session-a-location: Bayview Yards
+session-a-location: The Foundry
 session-a-talks:
 - title: "Organized, distributed OpenStreetMap field mapping with Field Campaigner"
   speakers:
@@ -16,7 +15,7 @@ session-a-talks:
       org: Kartoza
 
 session-b-event: "Training Session #4"
-session-b-location: Bayview Yards
+session-b-location: W101B
 session-b-talks:
 - title: "Introducing InaSAFE 4.0 Workshop for Disaster Management Analysis"
   speakers:

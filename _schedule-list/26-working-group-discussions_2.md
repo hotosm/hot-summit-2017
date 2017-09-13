@@ -5,7 +5,7 @@ day: 2
 time: ""
 
 session-a-event: "Working Group Discussion"
-session-a-location: Bayview Yards
+session-a-location: The Boardroom
 session-a-talks:
 - title: "Fundraising Working Group"
   speakers:

@@ -6,7 +6,7 @@ time: 11:30 - 12:40
 simultaneous: 1
 
 session-a-event: Facilitated Discussion
-session-a-location: Bayview Yards
+session-a-location: W101B
 session-a-talks:
 - title: "HDM, Health, and Thematic Tagging"
   speakers:
@@ -17,7 +17,7 @@ session-a-talks:
   link: discussion/hdm-health-and-thematic-tagging
 
 session-b-event: Facilitated Discussion
-session-b-location: Bayview Yards
+session-b-location: The Foundry
 session-b-talks:
 - title: "Data Quality & Validation"
   speakers:

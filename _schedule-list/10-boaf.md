@@ -4,7 +4,7 @@ day: 1
 
 time: 16:00 - 17:00
 event: Birds of a Feather Discussions
-location: Bayview Yards
+location: The Foundry & W101B
 
 speakers:
     - name:

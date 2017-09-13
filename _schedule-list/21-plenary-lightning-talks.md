@@ -4,7 +4,7 @@ day: 2
 
 time: 09:15 - 10:00
 event: Community Lightning Talks
-location: Bayview Yards
+location: The Foundry
 
 talks:
 - title: "YouthMappers: young leadership fellowship"

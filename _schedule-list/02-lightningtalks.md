@@ -4,7 +4,7 @@ day: 1
 
 time: 09:45 - 10:15
 event: Community Lightning talks
-location: Bayview Yards
+location: The Foundry
 
 talks:
 - title: "StatsCan: SDG indicators and reporting"
