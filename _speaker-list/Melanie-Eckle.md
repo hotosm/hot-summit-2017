@@ -3,7 +3,6 @@ img: Melanie
 name: Melanie Eckle
 organization: Heidelberg University
 
-talk: "MapSwipe: One year of Swiping and Tapping to support humanitarian mapping"
-
+talk: "Crowdsourcing post-earthquake building damage: comparing building-level vs area-based damage estimation"
 
 ---
