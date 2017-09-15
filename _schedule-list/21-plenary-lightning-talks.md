@@ -7,9 +7,6 @@ event: Community Lightning Talks
 location: The Foundry
 
 talks:
-- title: "YouthMappers: young leadership fellowship"
-  speaker: Yasmila Nogajack
-  org: YouthMappers
 - title: "Ramani Huria: Impacting the local community for and beyond Flood Resilience"
   speaker: Innocent Maholi
   org: Humanitarian OpenStreetMap Team
