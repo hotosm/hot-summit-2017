@@ -1,5 +1,5 @@
 ---
-img: david-headshot
+img: davidmiggenson
 name: David Megginson
 organization: HDX
 
