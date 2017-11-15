@@ -1,4 +1,4 @@
-domain: http://summit.hotosm.org
+domain: http://summit2017.hotosm.org
 baseurl: ''
 permalink: pretty
 exclude: [src, CNAME]
